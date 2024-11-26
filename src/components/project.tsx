@@ -4,21 +4,12 @@ export default function Project() {
   return (
     <div>
       <section className="mb-0">
-        <h2 className="text-xl font-semibold text-blue-700">项目经历</h2>
+        <h2 className="text-2xl font-semibold text-blue-700">获奖经历</h2>
         <hr className="border-t-2 border-blue-500 my-1" />
         <div>
-          <h3 className="text-xl font-semibold text-blue-900">xxxxxxx</h3>
+          <h3 className="text-xl font-semibold text-blue-900">浙江省大学生网络与信息安全竞赛</h3>
           <p className="text-sm inline-block">
-            xxxxxxx
-            <span className="underline text-blue-500">
-              证书：
-              <a
-                href="https://github.com/LofiSu/LofiSu/blob/main/My%20Honors%20and%20Awards.md"
-                className="underline text-blue-500"
-              >
-                https://github.com/LofiSu/LofiSu/blob/main/My%20Honors%20and%20Awards.md
-              </a>
-            </span>
+            本科组 一等奖
           </p>
           <h4 className="font-bold">xxxxxxx （https://fury.apache.org/）</h4>
           <p className="text-sm pl-5">
