@@ -30,16 +30,11 @@ export default function Info() {
             </p>
             <span className="mx-2">|</span>
             <FontAwesomeIcon icon={faBlog} className="mr-2" />
-            <a href="http://www.lofisu.chat" className="text-blue-500">
+            <a href="http://tech.ec3o.fun" className="text-blue-500">
               博客：tech.ec3o.fun
             </a>
           </p>
-          <p>
-            <strong>杭州电子科技大学 | 计算机科学与技术 | 大二</strong>
-          </p>
-          <p>本科 | 27届 | 立即到岗可实习六个月</p>
         </div>
-        <img src="logo.jpg" alt="证件照" className="w-30 h-40 object-cover" />
       </header>
     </div>
   );

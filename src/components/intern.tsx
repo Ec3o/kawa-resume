@@ -4,6 +4,16 @@ export default function Intern() {
   return (
     <div>
       <section className="mb-0">
+      <h2 className="text-2xl font-semibold text-blue-700 ">个人信息</h2>
+      <hr className="border-t-2 border-blue-500 my-2" />
+      <p>杭州电子科技大学Vidar-Team信息安全协会战队成员，跟随队伍参加各大CTF比赛，在队中主要负责Web方向.</p>
+      <h2 className="text-2xl font-semibold text-blue-700 ">教育经历</h2>
+      <hr className="border-t-2 border-blue-500 my-2" />
+      <div className="flex justify-between">
+          <p className="text-lg text-gray-700 font-semibold">杭州电子科技大学</p>
+          <p className="text-lg text-gray-700 font-semibold">2023/9-2027/6</p>
+        </div>
+        <p className="text-md">本科|计算机科学与技术</p>
         <h2 className="text-2xl font-semibold text-blue-700 ">项目经历</h2>
         <hr className="border-t-2 border-blue-500 my-2" />
         <div>
@@ -25,9 +35,9 @@ export default function Intern() {
           <li>对敏感端口和服务进行扫描和信息收集，探测到多个未授权访问和信息泄露端点</li>
           <li>利用X-Stream反序列化RCE反弹shell获取Linux主机Root权限</li>
           <li>尝试利用多款C2工具进行持久化，并利用Chisel搭建内网Socks5代理</li>
-          <li>免杀对抗：利用脚本循环杀死杀软拉起进程</li>
+          <li>免杀对抗：利用脚本循环杀死杀软拉起进程,成功上传Chisel落地</li>
           <h4 className="font-bold">渗透工具</h4>
-          <p>扫描器:<strong>fscan</strong>|<strong>gogo</strong></p>
+          <p>扫描器:<strong>fscan</strong>|<strong>gogo</strong><strong>goby</strong></p>
           <p>C2类:<strong>Metasploit</strong>|<strong>Sliver</strong></p>
           <p>内网代理:<strong>Chisel</strong></p>
 
