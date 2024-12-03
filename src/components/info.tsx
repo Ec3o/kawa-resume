@@ -6,6 +6,7 @@ import React from "react";
 export default function Info() {
   return (
     <div>
+      <div className="border-2 border-blue-500 p-4 rounded-lg">
       <header className="text-center mb-0 flex items-center justify-between">
         <div className="text-left">
           <h1 className="text-3xl font-bold">王梓茗</h1>
@@ -21,7 +22,7 @@ export default function Info() {
           </p>
           <p>
             <FontAwesomeIcon icon={faGithub} className="mr-2" />
-            <a href="https://github.com/LofiSu" className="">
+            <a href="https://github.com/Ec3o" className="">
               Ec3o
             </a>
             <span className="mx-2">|</span>
@@ -36,6 +37,7 @@ export default function Info() {
           </p>
         </div>
       </header>
+      </div>
     </div>
   );
 }

@@ -10,8 +10,8 @@ export default function Template() {
     <div className="max-w-4xl mx-auto p-10">
       <Info />
       <Intern />
-      <Project />
       <Skills />
+      <Project />
       <History />
     </div>
   );
