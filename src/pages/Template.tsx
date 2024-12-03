@@ -3,6 +3,7 @@ import Info from "../components/info";
 import Intern from "../components/intern";
 import Project from "../components/project";
 import Skills from "../components/skills";
+import History from "../components/history";
 
 export default function Template() {
   return (
@@ -11,6 +12,7 @@ export default function Template() {
       <Intern />
       <Project />
       <Skills />
+      <History />
     </div>
   );
 }
